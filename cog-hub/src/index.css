@@ -4,12 +4,8 @@
 
 
 @font-face {
-  font-family: SFNSText-Regular;
-  src: url("./fonts/SFNSText-Regular.otf") format("opentype");
+  font-family: 'sanfran';
+  src: local('SFNSText-Regular'), url("./fonts/SFNSText-Regular.ttf") format('ttf');
 }
 
-.container-tendencias{
-  background-color: aquamarine;
-  /* font-family: Arial, Helvetica, sans-serif; */
-
-}
+@tailwind utilities;

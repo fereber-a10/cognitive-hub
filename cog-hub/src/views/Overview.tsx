@@ -1,5 +1,5 @@
-import React from 'react'
 import Sells from '../components/overview/Sells'
+
 
 export default function Overview() {
   return (
@@ -9,8 +9,9 @@ export default function Overview() {
 
       </div>
 
-      <div className="reports">
-      <Sells />
+      <div className="flex flex-row">
+        <Sells name='Tendencias Sell Out'/>
+        <Sells name='Total Sell In'/>
       </div>
 
       <div className="performance-overview">
